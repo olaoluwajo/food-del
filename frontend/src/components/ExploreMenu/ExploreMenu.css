@@ -21,6 +21,7 @@
 		text-align: center;
 		margin: 20px 0px;
 		overflow-x: scroll;
+		/* width: 100%; */
 
 		&::-webkit-scrollbar {
 			display: none;
@@ -39,6 +40,10 @@
 				border-radius: 50%;
 			}
 
+			img {
+				width: 100%;
+			}
+
 			p {
 				margin-top: 10px;
 				color: #747474;
@@ -53,5 +58,12 @@
 		height: 2px;
 		background-color: #e2e2e2;
 		border: none;
+	}
+}
+
+@media (width <= 1050px) {
+	.explore-menu-text {
+		min-width: 100%;
+		font-size: 14px;
 	}
 }

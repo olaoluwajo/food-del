@@ -14,7 +14,7 @@
 		max-width: 50%;
 		bottom: 10%;
 		left: 6vw;
-    animation: fadeIn 2s ease-in-out;
+		animation: fadeIn 2s ease-in-out;
 
 		h2 {
 			font-weight: 500;
@@ -35,6 +35,26 @@
 			background-color: #fff;
 			font-size: max(1.1vw, 14px);
 			border-radius: 50px;
+		}
+	}
+}
+
+@media (width <= 1050px) {
+	.hero-contents {
+		max-width: 45%;
+	}
+}
+
+@media (width <= 750px) {
+	.hero-contents {
+		max-width: 65%;
+
+		p {
+			display: none;
+		}
+
+		button {
+			padding: 2vw 4vw;
 		}
 	}
 }
