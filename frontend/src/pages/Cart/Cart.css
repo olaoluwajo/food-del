@@ -96,6 +96,11 @@
 }
 
 @media (width <= 750px) {
+
+
+	.cart {
+		margin-top: 100px;
+	}
 	.cart-bottom {
 		flex-direction: column-reverse;
 	}
