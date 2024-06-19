@@ -1,8 +1,15 @@
 .navbar {
+	position: fixed;
+	top: 0;
 	padding: 20px 0px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	width: 80%;
+	background-color: #fff;
+	/* border-bottom: 1px solid #eaeaea; */
+	z-index: 1;
+
 
 	.logo {
 		width: 150px;
@@ -25,7 +32,7 @@
 
 	.active {
 		padding-bottom: 2px;
-		border-bottom: 2px solid #49557e;
+		border-bottom: 3px solid #49557e;
 	}
 
 	li {
