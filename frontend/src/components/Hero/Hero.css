@@ -40,6 +40,10 @@
 }
 
 @media (width <= 1050px) {
+	.hero {
+		margin: 90px auto 30px auto;
+	}
+
 	.hero-contents {
 		max-width: 45%;
 	}
